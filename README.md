@@ -1,5 +1,5 @@
 
-# [Advice Generator App](https://www.josephmatheus.github.io/advice-generator-app)
+# [Advice Generator App](https://josephmatheus.github.io/advice-generator-app)
 
 [Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db/hub/advice-generator-app-xc999hubLx) website challenge 
 and proposed by [Dev em Dobro](https://github.com/devemdobro)'s DevQuest 
