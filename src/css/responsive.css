@@ -1,0 +1,17 @@
+@media (max-width: 396px) {
+    body{
+        padding: 15px;
+    }
+
+    .card .advice {
+        font-size: 2rem;
+    }
+
+    .footer p{
+        font-size: 1.1rem;
+    }
+    
+    .footer a {
+        font-size: 1.1rem;
+    }
+}

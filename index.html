@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advice Generator App | Frontend Mentor</title>
+    <link rel="shortcut icon" href="src/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+</head>
+<body>
+    <main class="app">
+        <div class="card">
+            <h4 id="advice-number" class="advice-number">
+                Advice #000
+            </h4>
+            <p id="advice" class="advice">
+                
+            </p>
+            <picture>
+                <source media="(max-width: 396px)" srcset="./src/images/pattern-divider-mobile.svg">
+                <img class="pattern-divider" src="src/images/pattern-divider-desktop.svg" alt="Pattern Divider">
+            </picture>
+            <button id="draw-btn" class="draw-btn"><img src="src/images/icon-dice.svg" alt="Icon Dice"></button>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.github.com/josephmatheus" target="_blank">Joseph Matheus</a>.
+    </footer>
+    <script type="module" src="src/scripts/index.js"></script>
+</body>
+</html>

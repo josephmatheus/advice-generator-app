@@ -1,0 +1,96 @@
+body {
+    background-color: var(--darkBlue);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.card {
+    background-color: var(--darkGrayishBlue);
+    width: 500px;
+    height: 250px;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    max-width: 100%;
+}
+
+.card .advice-number {
+    color: var(--neonGreen);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.card .advice {
+    color: var(--lightCian);
+    font-size: 2.6rem;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.card .pattern-divider {
+    width: 100%;
+    margin: 5px 0 20px 0;
+}
+
+.draw-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: hidden;
+    background-color: var(--neonGreen);
+    position: absolute;
+    bottom: -10%;
+    cursor: pointer;
+}
+
+.draw-btn img {
+    width: 40%;
+}
+
+.draw-btn:hover {
+    box-shadow: 0px 0px 15px var(--neonGreen);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.footer p{
+    color: var(--lightCian);
+    font-size: 1.8rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: var(--neonGreen);
+    font-size: 1.8rem;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
