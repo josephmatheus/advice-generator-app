@@ -3,12 +3,8 @@ import { adviceApiConnect } from './advice-api-connect.js'
 
 async function generateAdvice(){
     const advices = await adviceApiConnect()
-    advice.innerHTML = `<p id="advice" class="advice">
-                            ${advices.slip.advice}
-                        </p>`
-    adviceNumber.innerHTML = `  <h4 id="advice-number" class="advice-number">
-                                    Advice #${advices.slip.id}
-                                </h4>`
+    advice.innerHTML = `${advices.slip.advice}`
+    adviceNumber.innerHTML = `Advice #${advices.slip.id}`
 }
 
 export { generateAdvice }
